@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dio-banco"
+version = "0.1.0"
+description = ""
+authors = ["Kiskadee <Kiskadee.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dio_banco"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
